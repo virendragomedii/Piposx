@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PiposX.SignUpFinel"
+              BackgroundColor="#429de3">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android">0,0,0,0</On>
+            <On Platform="iOS">0,20,0,0</On>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ScrollView>
+      
+            <AbsoluteLayout Padding="20"  VerticalOptions="Start">
+            <Label x:Name="lblfinalstep" Text="Final Step" TextColor="White" HorizontalTextAlignment="Start"   Font="30" AbsoluteLayout.LayoutBounds="0,0,1,40" AbsoluteLayout.LayoutFlags="WidthProportional" />
+            <Entry AbsoluteLayout.LayoutBounds="0,80,0.5,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="First Name" PlaceholderColor="#cacbce" TextColor="White"  HorizontalOptions="FillAndExpand"/>
+            <Entry  AbsoluteLayout.LayoutBounds="1,80,0.5,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Last Name" PlaceholderColor="#cacbce" TextColor="White"  HorizontalOptions="FillAndExpand"/>
+            <Entry  AbsoluteLayout.LayoutBounds="0,130,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Enter phone Number" PlaceholderColor="#cacbce" TextColor="White" HorizontalOptions="FillAndExpand"/>
+              <Entry AbsoluteLayout.LayoutBounds="0,180,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Password"  HorizontalOptions="FillAndExpand"/>
+
+              <Button  AbsoluteLayout.LayoutBounds="0,230,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"  HorizontalOptions="FillAndExpand" Text="Register" TextColor="White" BackgroundColor="Black"/>
+            </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PiposX.Effects"
+             x:Class="PiposX.LoginPage"
+             BackgroundColor="#429de3">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android">0,0,0,0</On>
+            <On Platform="iOS">0,20,0,0</On>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ScrollView>
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10,0,0">
+            <StackLayout Orientation="Vertical">
+            <Label x:Name="lblconnect" Text="Connect to your community better" TextColor="White" Font="22"/>
+            <Label x:Name="lbljoin" Text="Join your private community" TextColor="White" HorizontalOptions="Center" Opacity="0.6" Margin="10,10,10,10"/>
+            </StackLayout>
+        </StackLayout>
+            <!--<Grid Grid.Row="1" Margin="20,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+            </Grid>-->
+            <Button Text="Login with Facebook" Image="NewIcon.png" TextColor="White" BackgroundColor="#4180f4"  Grid.Row="1" />
+            <Entry x:Name="txtEmail" Placeholder="Enter email" PlaceholderColor="#cacbce" Grid.Row="2" TextColor="White" />
+            <Entry x:Name="txtpassword" Placeholder="Enter Password" PlaceholderColor="#cacbce" Grid.Row="3"  IsPassword="True" TextColor="White">
+                <Entry.Effects>
+                    <local:ShowHidePassEffect />
+                </Entry.Effects>
+            </Entry>
+            <Button x:Name="btnsubmit" Text="SIGN IN" TextColor="White" BackgroundColor="Black" Grid.Row="4" Clicked="btnsubmit_Click" ></Button>
+            <Label x:Name="lblforgot" Text="Forgot your password?" HorizontalOptions="Center" TextColor="White" BackgroundColor="Transparent"  Grid.Row="5" Margin="0,5,0,0"/>
+            <Label x:Name="lblcreateac" Text="Create an account?" HorizontalOptions="Center" TextColor="White" BackgroundColor="Transparent"  Grid.Row="6"/>
+            
+        </Grid>
+    </ScrollView>
+   
+</ContentPage>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:local="clr-namespace:PiposX.Effects"
+             x:Class="PiposX.SignUp"
+             BackgroundColor="#429de3">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android">0,0,0,0</On>
+            <On Platform="iOS">0,20,0,0</On>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ScrollView>
+        <Grid Margin="20,80,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,20,0,0">
+                <StackLayout Orientation="Vertical">
+                    
+                    <Label x:Name="lblsignup" Text="Sign up!" TextColor="White" HorizontalOptions="Center" Opacity="0.6" Margin="10,10,10,10"/>
+                </StackLayout>
+            </StackLayout>
+
+            <Entry x:Name="txtEmail" Placeholder="Enter email" PlaceholderColor="#cacbce" Grid.Row="1" TextColor="White" />
+            <Entry x:Name="txtpassword" Placeholder="Enter Password" PlaceholderColor="#cacbce" Grid.Row="2"  IsPassword="True" TextColor="White">
+                <Entry.Effects>
+                    <local:ShowHidePassEffect />
+                </Entry.Effects>
+            </Entry>
+            <Entry x:Name="txtRepassword" Placeholder="Retype new password" PlaceholderColor="#cacbce" Grid.Row="3"  IsPassword="True" TextColor="White">
+                <Entry.Effects>
+                    <local:ShowHidePassEffect />
+                </Entry.Effects>
+            </Entry>
+            <Label x:Name="lblterms" Text="By signing up you agree to the terms" HorizontalOptions="Center" TextColor="White" BackgroundColor="Transparent"  Grid.Row="4" Margin="0,5,0,0"/>
+            <Button x:Name="btnsubmit" Text="SIGN UP" TextColor="White" BackgroundColor="Black" Grid.Row="5" Clicked="btnsubmit_Click"></Button>
+            <Label x:Name="lblsignin" Text="Click here to signin" HorizontalOptions="Center" TextColor="White" BackgroundColor="Transparent"  Grid.Row="6" Margin="0,5,0,0"/>
+
+
+        </Grid>
+    </ScrollView>
+</ContentPage>
