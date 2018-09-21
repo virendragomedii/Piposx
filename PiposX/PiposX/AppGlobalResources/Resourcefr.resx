@@ -1,0 +1,1515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="general_something_wrong" xml:space="preserve">
+    <value>Quelque chose c'est mal passé. Merci d'essayer plus tard</value>
+  </data>
+  <data name="home_agree_signup" xml:space="preserve">
+    <value>En vous inscrivant, vous acceptez les termes</value>
+  </data>
+  <data name="home_click_to_signin" xml:space="preserve">
+    <value>Cliquez ici pour vous connecter</value>
+  </data>
+  <data name="home_create_projects" xml:space="preserve">
+    <value>Créer un Initiatives</value>
+  </data>
+  <data name="home_dont_have_account" xml:space="preserve">
+    <value>Créer un compte</value>
+  </data>
+  <data name="home_download" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="home_email" xml:space="preserve">
+    <value>Entrez un email</value>
+  </data>
+  <data name="home_email_error1" xml:space="preserve">
+    <value>S'il vous plaît, mettez une adresse email valide</value>
+  </data>
+  <data name="home_email_error2" xml:space="preserve">
+    <value>L'adresse email existe déjà dans la base de données</value>
+  </data>
+  <data name="home_facebook_signin" xml:space="preserve">
+    <value>Connexion Facebook</value>
+  </data>
+  <data name="home_find_awsome_people" xml:space="preserve">
+    <value>Collaborez mieux</value>
+  </data>
+  <data name="home_first_name" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="home_first_name_error1" xml:space="preserve">
+    <value>Entrez le prénom</value>
+  </data>
+  <data name="home_first_name_error2" xml:space="preserve">
+    <value>Veuillez entrer un prénom valide</value>
+  </data>
+  <data name="home_forgot_detail_sent" xml:space="preserve">
+    <value>Les détails de votre compte ont été envoyé à votre addresse email.</value>
+  </data>
+  <data name="home_forgot_password" xml:space="preserve">
+    <value>Mot de passe oublié?</value>
+  </data>
+  <data name="home_forgot_text" xml:space="preserve">
+    <value>Mot de passe oublié? Écrivez votre addresse email pour récupérer</value>
+  </data>
+  <data name="home_last_name" xml:space="preserve">
+    <value>Nom de famille</value>
+  </data>
+  <data name="home_last_name_error" xml:space="preserve">
+    <value>Merci d'entrer un nom de famille valide</value>
+  </data>
+  <data name="home_live_feed" xml:space="preserve">
+    <value>flux en direct</value>
+  </data>
+  <data name="home_login_facebook" xml:space="preserve">
+    <value>Se connecter avec Facebook</value>
+  </data>
+  <data name="home_make_friends" xml:space="preserve">
+    <value>Trouver des collègues</value>
+  </data>
+  <data name="home_password" xml:space="preserve">
+    <value>Entrer le mot de passe</value>
+  </data>
+  <data name="home_password_error" xml:space="preserve">
+    <value>Veuillez entrer le mot de passe</value>
+  </data>
+  <data name="home_people_already_signedup" xml:space="preserve">
+    <value>Personnes déjà inscrites</value>
+  </data>
+  <data name="home_people_online" xml:space="preserve">
+    <value>Personnes en ligne</value>
+  </data>
+  <data name="home_people_registered" xml:space="preserve">
+    <value>Personnes enregistrées</value>
+  </data>
+  <data name="home_phone_error" xml:space="preserve">
+    <value>S'il vous plaît entrer un numéro de téléphone valide</value>
+  </data>
+  <data name="home_phone_number" xml:space="preserve">
+    <value>Entrez le numéro de téléphone</value>
+  </data>
+  <data name="home_piposx_signup" xml:space="preserve">
+    <value>S'inscrire</value>
+  </data>
+  <data name="home_posts_published" xml:space="preserve">
+    <value>Postes publiés</value>
+  </data>
+  <data name="home_private_chats" xml:space="preserve">
+    <value>Messages privés</value>
+  </data>
+  <data name="home_publish_posts" xml:space="preserve">
+    <value>Publier des messages</value>
+  </data>
+  <data name="home_retrieve" xml:space="preserve">
+    <value>Récupérer</value>
+  </data>
+  <data name="home_retype_password" xml:space="preserve">
+    <value>Confirmez le mot de passe</value>
+  </data>
+  <data name="home_re_password_error" xml:space="preserve">
+    <value>Entrez Re-Password</value>
+  </data>
+  <data name="home_see_what_happening" xml:space="preserve">
+    <value>Voir ce qui se passe maintenant</value>
+  </data>
+  <data name="home_select" xml:space="preserve">
+    <value>Sélectionnez</value>
+  </data>
+  <data name="home_select_error" xml:space="preserve">
+    <value>Sélectionnez valide</value>
+  </data>
+  <data name="home_signin" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
+  <data name="home_signin_active_error" xml:space="preserve">
+    <value>Votre compte n'est pas encore activé</value>
+  </data>
+  <data name="home_signin_error" xml:space="preserve">
+    <value>Veuillez saisir un e-mail ou un mot de passe valide</value>
+  </data>
+  <data name="home_signin_text" xml:space="preserve">
+    <value>Rejoignez votre {0} privée</value>
+  </data>
+  <data name="home_signup" xml:space="preserve">
+    <value>S'inscrire</value>
+  </data>
+  <data name="home_signup_success" xml:space="preserve">
+    <value>Vous êtes enregistré avec succès, vous recevrez un courriel lorsque l'administrateur vous approuvera</value>
+  </data>
+  <data name="home_signup_text" xml:space="preserve">
+    <value>Inscrivez vous et reprenez contact avec des gens formidables de votre</value>
+  </data>
+  <data name="home_social_herd" xml:space="preserve">
+    <value>Troupeau social</value>
+  </data>
+  <data name="home_stay_connected" xml:space="preserve">
+    <value>Rester connecté n'importe quand, n'importe où</value>
+  </data>
+  <data name="home_top_title" xml:space="preserve">
+    <value>Connectez-vous mieux à votre {0}</value>
+  </data>
+  <data name="home_unmatch_password_error" xml:space="preserve">
+    <value>Les champs de mot de passe ne correspondent pas</value>
+  </data>
+  <data name="master_contact" xml:space="preserve">
+    <value>Contactez</value>
+  </data>
+  <data name="master_copyrights" xml:space="preserve">
+    <value>Copyright info@piposx.com 2017. Tous droits réservés</value>
+  </data>
+  <data name="master_logout" xml:space="preserve">
+    <value>Se deconnecter</value>
+  </data>
+  <data name="master_search_holder" xml:space="preserve">
+    <value>Rechercher des collègues, des publications et des initiative</value>
+  </data>
+  <data name="master_social_tag" xml:space="preserve">
+    <value>Votre {0} privée</value>
+  </data>
+  <data name="master_support" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="profile_profile_name" xml:space="preserve">
+    <value>Editer le profil</value>
+  </data>
+  <data name="general_page_not_found" xml:space="preserve">
+    <value>Nous n'avons pas pu trouver votre page. Utilisez la navigation ci-dessus et réessayer. Merci.</value>
+  </data>
+  <data name="home_already_registered" xml:space="preserve">
+    <value>Vous êtes déjà enregistré, attendez l'approbation de votre administrateur sur votre compte.</value>
+  </data>
+  <data name="home_dept_promo_not_linked" xml:space="preserve">
+    <value>{0} et {1} ne sont pas connectés avec {2}</value>
+  </data>
+  <data name="home_facebook_signup_step2" xml:space="preserve">
+    <value>Inscription Facebook - Étape 2</value>
+  </data>
+  <data name="home_signup_failed" xml:space="preserve">
+    <value>l'inscription a échoué, essayez à nouveau plus tard</value>
+  </data>
+  <data name="popup_cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="home_school_not_active" xml:space="preserve">
+    <value>Votre {0} n'est pas actif, vous ne pouvez pas vous connecter</value>
+  </data>
+  <data name="news_announcements" xml:space="preserve">
+    <value>Annonces</value>
+  </data>
+  <data name="popup_change" xml:space="preserve">
+    <value>Changement</value>
+  </data>
+  <data name="popup_invalid_old_password" xml:space="preserve">
+    <value>L'ancien mot de passe saisi n'est pas correct</value>
+  </data>
+  <data name="popup_new_password" xml:space="preserve">
+    <value>Nouveau mot de passe</value>
+  </data>
+  <data name="popup_new_retype_pass_mismatch" xml:space="preserve">
+    <value>Les deux nouveaux mots de passes ne correspondent pas les uns aux autres</value>
+  </data>
+  <data name="popup_old_password" xml:space="preserve">
+    <value>Ancien mot de passe</value>
+  </data>
+  <data name="popup_password_updated" xml:space="preserve">
+    <value>Nouveau mot de passe mis à jour avec succès</value>
+  </data>
+  <data name="popup_retype_new_password" xml:space="preserve">
+    <value>Re-taper le nouveau mot de passe</value>
+  </data>
+  <data name="popup_type_new_pass" xml:space="preserve">
+    <value>Tapez un nouveau mot de passe valide</value>
+  </data>
+  <data name="popup_type_old_pass" xml:space="preserve">
+    <value>Tapez un ancien mot de passe valide</value>
+  </data>
+  <data name="popup_type_retype_pass" xml:space="preserve">
+    <value>Tapez le mot de passe de nouveau</value>
+  </data>
+  <data name="profile_biodata" xml:space="preserve">
+    <value>Bref Bio</value>
+  </data>
+  <data name="profile_birth_date" xml:space="preserve">
+    <value>Date de naissance MM/dd/yyyy</value>
+  </data>
+  <data name="profile_change_password" xml:space="preserve">
+    <value>Changer le mot de passe</value>
+  </data>
+  <data name="profile_click_to_change_image" xml:space="preserve">
+    <value>Cliquez ici pour changer l'image de profil</value>
+  </data>
+  <data name="profile_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="profile_phone_number" xml:space="preserve">
+    <value>Numéro de téléphone</value>
+  </data>
+  <data name="profile_update" xml:space="preserve">
+    <value>Mettre à jour</value>
+  </data>
+  <data name="profile_updated_success" xml:space="preserve">
+    <value>Profil utilisateur mis à jour avec succès</value>
+  </data>
+  <data name="profile_user_profile" xml:space="preserve">
+    <value>Profil de l'utilisateur</value>
+  </data>
+  <data name="news_no_anncoument_found" xml:space="preserve">
+    <value>Aucune annonce n'a été trouvée</value>
+  </data>
+  <data name="news_publish" xml:space="preserve">
+    <value>Publier</value>
+  </data>
+  <data name="news_select_file" xml:space="preserve">
+    <value>Sélectionnez un fichier</value>
+  </data>
+  <data name="news_upload" xml:space="preserve">
+    <value>Télécharger</value>
+  </data>
+  <data name="news_upload_image" xml:space="preserve">
+    <value>Télécharger l'image</value>
+  </data>
+  <data name="news_upload_video" xml:space="preserve">
+    <value>Télécharger une video</value>
+  </data>
+  <data name="news_wait_to_upload" xml:space="preserve">
+    <value>Veuillez patienter pendant le téléchargement complet du fichier</value>
+  </data>
+  <data name="news_write_post" xml:space="preserve">
+    <value>Échange…</value>
+  </data>
+  <data name="template_Close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="template_delete" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="template_drop_file" xml:space="preserve">
+    <value>Déplacez le fichier ici</value>
+  </data>
+  <data name="template_no" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="template_ok" xml:space="preserve">
+    <value>D'accord</value>
+  </data>
+  <data name="template_retry" xml:space="preserve">
+    <value>Recommencez</value>
+  </data>
+  <data name="template_yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="news_anyone_on_piposx" xml:space="preserve">
+    <value>Toute personne sur PiposX</value>
+  </data>
+  <data name="news_anyone_with" xml:space="preserve">
+    <value>Toute personne de</value>
+  </data>
+  <data name="news_empty_post" xml:space="preserve">
+    <value>Tapez ce que vous souhaitez publier</value>
+  </data>
+  <data name="news_friend_specific" xml:space="preserve">
+    <value>Message Privé</value>
+  </data>
+  <data name="news_post_comment" xml:space="preserve">
+    <value>Poste un commentaire</value>
+  </data>
+  <data name="news_publish_posted_about" xml:space="preserve">
+    <value>Publié un article</value>
+  </data>
+  <data name="news_select_friend" xml:space="preserve">
+    <value>Sélectionnez le collègue</value>
+  </data>
+  <data name="news_who_see_this" xml:space="preserve">
+    <value>Qui devrait voir cela?</value>
+  </data>
+  <data name="news_load_previous_comments" xml:space="preserve">
+    <value>Charger les commentaires précédents</value>
+  </data>
+  <data name="news_newsfeed" xml:space="preserve">
+    <value>Fil d'actualité</value>
+  </data>
+  <data name="news_posts" xml:space="preserve">
+    <value>Des postes</value>
+  </data>
+  <data name="time_ago_about_min" xml:space="preserve">
+    <value>Une minute environ</value>
+  </data>
+  <data name="time_ago_ago" xml:space="preserve">
+    <value />
+  </data>
+  <data name="time_ago_day" xml:space="preserve">
+    <value>un jour</value>
+  </data>
+  <data name="time_ago_days" xml:space="preserve">
+    <value>%d journées</value>
+  </data>
+  <data name="time_ago_hour" xml:space="preserve">
+    <value>environ une heure</value>
+  </data>
+  <data name="time_ago_hours" xml:space="preserve">
+    <value>environ %d heures</value>
+  </data>
+  <data name="time_ago_less_than_min" xml:space="preserve">
+    <value>moins d'une minute</value>
+  </data>
+  <data name="time_ago_minutes" xml:space="preserve">
+    <value>%d minutes</value>
+  </data>
+  <data name="time_ago_month" xml:space="preserve">
+    <value>environ un mois</value>
+  </data>
+  <data name="time_ago_months" xml:space="preserve">
+    <value>%d mois</value>
+  </data>
+  <data name="time_ago_year" xml:space="preserve">
+    <value>à peu près un an</value>
+  </data>
+  <data name="time_ago_years" xml:space="preserve">
+    <value>%d années</value>
+  </data>
+  <data name="news_session_time_out" xml:space="preserve">
+    <value>La session a expiré, vous êtes redirigé vers la page d'accueil</value>
+  </data>
+  <data name="news_thread_deleted" xml:space="preserve">
+    <value>Votre publication a été supprimée avec succès</value>
+  </data>
+  <data name="news_thread_delete_not_owner" xml:space="preserve">
+    <value>Malheureusement, vous n'êtes pas le propriétaire de l'article</value>
+  </data>
+  <data name="news_thread_no_rights" xml:space="preserve">
+    <value>Malheureusement, vous n'avez pas de droits sur cette publication</value>
+  </data>
+  <data name="news_search_results" xml:space="preserve">
+    <value>Résultats de recherche de</value>
+  </data>
+  <data name="timeline_about" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="timeline_add_friend" xml:space="preserve">
+    <value>Ajouter collègue</value>
+  </data>
+  <data name="timeline_Friends" xml:space="preserve">
+    <value>Collègues</value>
+  </data>
+  <data name="timeline_friend_requests" xml:space="preserve">
+    <value>Demandes de collègues</value>
+  </data>
+  <data name="timeline_friend_request_sent" xml:space="preserve">
+    <value>Demande de collègue envoyée</value>
+  </data>
+  <data name="timeline_timeline" xml:space="preserve">
+    <value>Chronologie</value>
+  </data>
+  <data name="timeline_unfollow_people" xml:space="preserve">
+    <value>Desabonnés</value>
+  </data>
+  <data name="timeline_unfriend" xml:space="preserve">
+    <value>Bloquer</value>
+  </data>
+  <data name="activity_activity" xml:space="preserve">
+    <value>activité</value>
+  </data>
+  <data name="activity_commented" xml:space="preserve">
+    <value>a commenté un article</value>
+  </data>
+  <data name="activity_disliked" xml:space="preserve">
+    <value>n'a pas aimé un article</value>
+  </data>
+  <data name="activity_friend" xml:space="preserve">
+    <value>est maintenant collègue de</value>
+  </data>
+  <data name="activity_liked" xml:space="preserve">
+    <value>a aimé un article</value>
+  </data>
+  <data name="activity_shared" xml:space="preserve">
+    <value>a partagé une publication</value>
+  </data>
+  <data name="activity_unfollowed" xml:space="preserve">
+    <value>s'est desabonné de</value>
+  </data>
+  <data name="timeline_accept" xml:space="preserve">
+    <value>Accepter comme collègue</value>
+  </data>
+  <data name="timeline_approve_friend" xml:space="preserve">
+    <value>Approuver collègue</value>
+  </data>
+  <data name="timeline_no_pending_fr" xml:space="preserve">
+    <value>Il n'y a pas de demande de collègue en instance</value>
+  </data>
+  <data name="timeline_friend_accepted" xml:space="preserve">
+    <value>Vous avez accepté la demande de collègue de</value>
+  </data>
+  <data name="timeline_friend_no_request" xml:space="preserve">
+    <value>Aucune demande de collègue trouvée pour cet utilisateur</value>
+  </data>
+  <data name="timeline_friend_unfriend" xml:space="preserve">
+    <value>Vous n'êtes plus collègue avec</value>
+  </data>
+  <data name="general_community" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="home_please_wait" xml:space="preserve">
+    <value>S'il vous plaît, attendez...</value>
+  </data>
+  <data name="news_select_specific_user" xml:space="preserve">
+    <value>Sélectionnez un utilisateur de message privé valide</value>
+  </data>
+  <data name="template_processing_droped_file" xml:space="preserve">
+    <value>Traitement des fichiers abandonnés</value>
+  </data>
+  <data name="template_select_file" xml:space="preserve">
+    <value>Choisir le fichier</value>
+  </data>
+  <data name="timeline_follow" xml:space="preserve">
+    <value>S'abonner</value>
+  </data>
+  <data name="timeline_no_friend" xml:space="preserve">
+    <value>Vous n'avez pas encore de collègues</value>
+  </data>
+  <data name="timeline_no_unfollowed_list" xml:space="preserve">
+    <value>Vous suivez tout le monde</value>
+  </data>
+  <data name="timeline_unfollow" xml:space="preserve">
+    <value>Se desabonner</value>
+  </data>
+  <data name="timeline_unfollow_not_already" xml:space="preserve">
+    <value>Vous ne vous etes pas desabonné de cet utilisateur</value>
+  </data>
+  <data name="timeline_unfollow_removed" xml:space="preserve">
+    <value>Vous suivez maintenant</value>
+  </data>
+  <data name="general_month" xml:space="preserve">
+    <value>Mois</value>
+  </data>
+  <data name="general_year" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="general_company" xml:space="preserve">
+    <value>Compagnie</value>
+  </data>
+  <data name="general_description" xml:space="preserve">
+    <value>La description</value>
+  </data>
+  <data name="general_edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="general_experience" xml:space="preserve">
+    <value>Expérience</value>
+  </data>
+  <data name="general_from" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="general_I_work_here" xml:space="preserve">
+    <value>Je travaille actuellement ici</value>
+  </data>
+  <data name="general_location" xml:space="preserve">
+    <value>Lieu</value>
+  </data>
+  <data name="general_present" xml:space="preserve">
+    <value>Présent</value>
+  </data>
+  <data name="general_title" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="general_to" xml:space="preserve">
+    <value>À</value>
+  </data>
+  <data name="profile_experience_added" xml:space="preserve">
+    <value>Expérience ajoutée avec succès</value>
+  </data>
+  <data name="profile_experience_updated" xml:space="preserve">
+    <value>Expérience mise à jour avec succès</value>
+  </data>
+  <data name="profile_update_experience" xml:space="preserve">
+    <value>Expérience de mise à jour</value>
+  </data>
+  <data name="general_degree" xml:space="preserve">
+    <value>Diplome</value>
+  </data>
+  <data name="general_education" xml:space="preserve">
+    <value>Éducation</value>
+  </data>
+  <data name="general_field_of_study" xml:space="preserve">
+    <value>Domaine d'étude</value>
+  </data>
+  <data name="general_grade" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="general_school" xml:space="preserve">
+    <value>École</value>
+  </data>
+  <data name="profile_add_education" xml:space="preserve">
+    <value>Ajouter l'éducation</value>
+  </data>
+  <data name="profile_education_added" xml:space="preserve">
+    <value>L'éducation a été ajoutée avec succès</value>
+  </data>
+  <data name="profile_education_updated" xml:space="preserve">
+    <value>Education mise à jour avec succès</value>
+  </data>
+  <data name="profile_type_school_name" xml:space="preserve">
+    <value>Veuillez taper {0} nom</value>
+  </data>
+  <data name="profile_update_education" xml:space="preserve">
+    <value>Mise à jour de l'éducation</value>
+  </data>
+  <data name="find_colleague" xml:space="preserve">
+    <value>Trouver Collègue</value>
+  </data>
+  <data name="find_project" xml:space="preserve">
+    <value>Trouver Initiative</value>
+  </data>
+  <data name="general_activity" xml:space="preserve">
+    <value>activité</value>
+  </data>
+  <data name="general_description_not_found" xml:space="preserve">
+    <value>Description non trouvée</value>
+  </data>
+  <data name="general_project" xml:space="preserve">
+    <value>Initiative</value>
+  </data>
+  <data name="header_search_by" xml:space="preserve">
+    <value>Recherché par</value>
+  </data>
+  <data name="news_select_project" xml:space="preserve">
+    <value>Selectionnnez l'initiative</value>
+  </data>
+  <data name="popup_add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="profile_add_experience" xml:space="preserve">
+    <value>Ajouter une expérience</value>
+  </data>
+  <data name="profile_birth_date2" xml:space="preserve">
+    <value>Date de naissance</value>
+  </data>
+  <data name="profile_select_from" xml:space="preserve">
+    <value>Veuillez sélectionner valide à partir de la date</value>
+  </data>
+  <data name="profile_select_to" xml:space="preserve">
+    <value>Veuillez sélectionner valide à ce jour</value>
+  </data>
+  <data name="profile_type_company" xml:space="preserve">
+    <value>Veuillez saisir une entreprise valide</value>
+  </data>
+  <data name="profile_type_location" xml:space="preserve">
+    <value>Tapez une adresse valide</value>
+  </data>
+  <data name="profile_type_title" xml:space="preserve">
+    <value>Tapez le titre valide</value>
+  </data>
+  <data name="project_added" xml:space="preserve">
+    <value>Nouveau initiative ajouté avec succès</value>
+  </data>
+  <data name="project_add_project" xml:space="preserve">
+    <value>Ajouter un initiative</value>
+  </data>
+  <data name="project_updated" xml:space="preserve">
+    <value>Initiative mis à jour avec succès</value>
+  </data>
+  <data name="project_update_project" xml:space="preserve">
+    <value>Initiative de mise à jour</value>
+  </data>
+  <data name="contact_enter_email" xml:space="preserve">
+    <value>Entrer votre Email</value>
+  </data>
+  <data name="contact_enter_message" xml:space="preserve">
+    <value>Laissez un message pour nous</value>
+  </data>
+  <data name="contact_enter_name" xml:space="preserve">
+    <value>Entrez votre nom</value>
+  </data>
+  <data name="contact_enter_phone" xml:space="preserve">
+    <value>Entrez votre téléphone</value>
+  </data>
+  <data name="contact_enter_valid_message" xml:space="preserve">
+    <value>Entrez un message valide</value>
+  </data>
+  <data name="contact_enter_valid_name" xml:space="preserve">
+    <value>Merci d'entrer un nom valide</value>
+  </data>
+  <data name="contact_leave_message" xml:space="preserve">
+    <value>Laisser un message</value>
+  </data>
+  <data name="contact_message_sent" xml:space="preserve">
+    <value>Message envoyé à l'administrateur PiposX avec succès, merci pour vos commentaires</value>
+  </data>
+  <data name="contact_reach_us" xml:space="preserve">
+    <value>Rejoins-nous</value>
+  </data>
+  <data name="contact_send_message" xml:space="preserve">
+    <value>Envoyer un message</value>
+  </data>
+  <data name="general_advertising" xml:space="preserve">
+    <value>La publicité</value>
+  </data>
+  <data name="general_both" xml:space="preserve">
+    <value>Partenaires et investisseurs</value>
+  </data>
+  <data name="general_business" xml:space="preserve">
+    <value>Entreprise</value>
+  </data>
+  <data name="general_duration" xml:space="preserve">
+    <value>Durée en mois</value>
+  </data>
+  <data name="general_eroi" xml:space="preserve">
+    <value>Rendement estimatif des investissements</value>
+  </data>
+  <data name="general_estimated_budget" xml:space="preserve">
+    <value>Budget estimé du Initiative</value>
+  </data>
+  <data name="general_everything" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="general_followers" xml:space="preserve">
+    <value>Abonnés</value>
+  </data>
+  <data name="general_investors" xml:space="preserve">
+    <value>Investisseurs</value>
+  </data>
+  <data name="general_in_progress" xml:space="preserve">
+    <value>En cours</value>
+  </data>
+  <data name="general_looking_for" xml:space="preserve">
+    <value>À la recherche de</value>
+  </data>
+  <data name="general_must_be_strong_in" xml:space="preserve">
+    <value>Doit être fort dans</value>
+  </data>
+  <data name="general_now" xml:space="preserve">
+    <value>À présent</value>
+  </data>
+  <data name="general_partners" xml:space="preserve">
+    <value>Les partenaires</value>
+  </data>
+  <data name="general_pcc" xml:space="preserve">
+    <value>Engagement de contribution personnelle</value>
+  </data>
+  <data name="general_start_date" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="general_technical" xml:space="preserve">
+    <value>Technique</value>
+  </data>
+  <data name="news_not_friend" xml:space="preserve">
+    <value>Malheureusement, vous n'êtes pas Collegue de l'utilisateur</value>
+  </data>
+  <data name="news_not_project_owner" xml:space="preserve">
+    <value>Malheureusement, vous n'êtes pas le propriétaire du initiative</value>
+  </data>
+  <data name="news_select_valid_project" xml:space="preserve">
+    <value>Sélectionnez un initiative valide</value>
+  </data>
+  <data name="profile_type_description" xml:space="preserve">
+    <value>Veuillez saisir une description valide</value>
+  </data>
+  <data name="timeline_no_follower" xml:space="preserve">
+    <value>Pas d'abonnés</value>
+  </data>
+  <data name="general_privacy_policy" xml:space="preserve">
+    <value>Intimité</value>
+  </data>
+  <data name="gneral_dismiss" xml:space="preserve">
+    <value>annuler</value>
+  </data>
+  <data name="news_upload_file" xml:space="preserve">
+    <value>Ajouter un fichier</value>
+  </data>
+  <data name="general_calculating_time" xml:space="preserve">
+    <value>calculer le temps ...</value>
+  </data>
+  <data name="general_add_member" xml:space="preserve">
+    <value>Ajouter des membres de</value>
+  </data>
+  <data name="general_is_private" xml:space="preserve">
+    <value>L'initiative est-elle privée?</value>
+  </data>
+  <data name="general_edit_project" xml:space="preserve">
+    <value>Modifier l'initiative</value>
+  </data>
+  <data name="timeline_projects" xml:space="preserve">
+    <value>Initiatives</value>
+  </data>
+  <data name="profile_class_name" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="time_other_projects" xml:space="preserve">
+    <value>Autres {0} Initiatives</value>
+  </data>
+  <data name="timeline_project_requests" xml:space="preserve">
+    <value>Demandes</value>
+  </data>
+  <data name="timeline_join" xml:space="preserve">
+    <value>Rejoindre l'initiative</value>
+  </data>
+  <data name="timeline_leave" xml:space="preserve">
+    <value>Quitter l'initiative</value>
+  </data>
+  <data name="timeline_project_add_user" xml:space="preserve">
+    <value>Ajouter un membre</value>
+  </data>
+  <data name="timeline_request_send" xml:space="preserve">
+    <value>Validation en attente</value>
+  </data>
+  <data name="notification_commented" xml:space="preserve">
+    <value>A commenté votre publication</value>
+  </data>
+  <data name="notification_disliked" xml:space="preserve">
+    <value>N'a pas aimé votre message</value>
+  </data>
+  <data name="notification_liked" xml:space="preserve">
+    <value>A aimé votre publication</value>
+  </data>
+  <data name="notification_mark_all_read" xml:space="preserve">
+    <value>Marquer tout comme lu</value>
+  </data>
+  <data name="notification_notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="notification_notification_post" xml:space="preserve">
+    <value>Poste de notification</value>
+  </data>
+  <data name="notification_replied_other_post" xml:space="preserve">
+    <value>à répondu à votre commentaire sur une publication</value>
+  </data>
+  <data name="notification_replied_your_post" xml:space="preserve">
+    <value>à repondu à un commentaire sur votre publication</value>
+  </data>
+  <data name="notification_not_found" xml:space="preserve">
+    <value>Notifications non trouvées</value>
+  </data>
+  <data name="notification_commented_other_post" xml:space="preserve">
+    <value>A commenté un article</value>
+  </data>
+  <data name="inbox_add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="inbox_close" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="inbox_conversation_not_found" xml:space="preserve">
+    <value>La conversation n'existe pas.</value>
+  </data>
+  <data name="inbox_delete_thread" xml:space="preserve">
+    <value>Supprimer le fil</value>
+  </data>
+  <data name="inbox_inbox" xml:space="preserve">
+    <value>Messagerie</value>
+  </data>
+  <data name="inbox_locked_done" xml:space="preserve">
+    <value>Le fil actuel est bloqué avec succès, aucun autre utilisateur ne pourra envoyer de messages avec ce fil.</value>
+  </data>
+  <data name="inbox_lock_not_allowed" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à verrouiller le fil parce que vous n'en êtes pas le propriétaire.</value>
+  </data>
+  <data name="inbox_lock_thread" xml:space="preserve">
+    <value>Fil de verrouillage</value>
+  </data>
+  <data name="inbox_mute_done" xml:space="preserve">
+    <value>Le fil actuel est coupé avec succès.</value>
+  </data>
+  <data name="inbox_mute_thread" xml:space="preserve">
+    <value>Fil Mute</value>
+  </data>
+  <data name="inbox_notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="inbox_not_allowed" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à le faire.</value>
+  </data>
+  <data name="inbox_not_allowed_delete" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à supprimer des messages dans cette conversation.</value>
+  </data>
+  <data name="inbox_not_allowed_locked_message" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à envoyer un message dans cette conversation verrouillée.</value>
+  </data>
+  <data name="inbox_not_allowed_send_message" xml:space="preserve">
+    <value>Vous n'êtes pas autorisé à envoyer un message dans cette conversation.</value>
+  </data>
+  <data name="inbox_no_conversation_found" xml:space="preserve">
+    <value>Aucune conversation trouvée</value>
+  </data>
+  <data name="inbox_no_lock_2_users" xml:space="preserve">
+    <value>Vous ne pouvez pas verrouiller la conversation de 2 utilisateurs.</value>
+  </data>
+  <data name="inbox_no_messages_to_show" xml:space="preserve">
+    <value>Aucun message à afficher</value>
+  </data>
+  <data name="inbox_participants" xml:space="preserve">
+    <value>Participants à la conversation</value>
+  </data>
+  <data name="inbox_search" xml:space="preserve">
+    <value>Chercher...</value>
+  </data>
+  <data name="inbox_search_message" xml:space="preserve">
+    <value>Message de recherche ...</value>
+  </data>
+  <data name="inbox_seen_status" xml:space="preserve">
+    <value>Statut vu</value>
+  </data>
+  <data name="inbox_select_users" xml:space="preserve">
+    <value>Select Friends</value>
+  </data>
+  <data name="inbox_unlocked_done" xml:space="preserve">
+    <value>Le fil actuel est déverrouillé avec succès.</value>
+  </data>
+  <data name="inbox_unlock_thread" xml:space="preserve">
+    <value>Débloquer le fil</value>
+  </data>
+  <data name="inbox_unmute_done" xml:space="preserve">
+    <value>Le fil actuel n'est pas réussi.</value>
+  </data>
+  <data name="inbox_write_reply" xml:space="preserve">
+    <value>Écrire une réponse...</value>
+  </data>
+  <data name="project_add_class" xml:space="preserve">
+    <value>Ma {0}</value>
+  </data>
+  <data name="project_add_community" xml:space="preserve">
+    <value>Ma {0}</value>
+  </data>
+  <data name="project_add_department" xml:space="preserve">
+    <value>Mon {0}</value>
+  </data>
+  <data name="project_add_private" xml:space="preserve">
+    <value>Oui, c'est privé (Personne d'autre que les membres que je sélectionne pourra le voir)</value>
+  </data>
+  <data name="project_add_promotion" xml:space="preserve">
+    <value>Ma {0}</value>
+  </data>
+  <data name="project_manage" xml:space="preserve">
+    <value>Gérer</value>
+  </data>
+  <data name="general_delete_project" xml:space="preserve">
+    <value>Supprimer l'initiative</value>
+  </data>
+  <data name="project_manage_full" xml:space="preserve">
+    <value>Sélectionnez Options pour gérer l'initiative</value>
+  </data>
+  <data name="project_delete" xml:space="preserve">
+    <value>Voulez-vous supprimer cette initiative?</value>
+  </data>
+  <data name="box_cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="box_delete" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="timeline_me_projects" xml:space="preserve">
+    <value>Mes Initiatives</value>
+  </data>
+  <data name="timeline_other_projects" xml:space="preserve">
+    <value>Voir tous les initiatives communautaires</value>
+  </data>
+  <data name="timeline_project_request" xml:space="preserve">
+    <value>Toute demande de Initiative</value>
+  </data>
+  <data name="confirm_leave" xml:space="preserve">
+    <value>Voulez-vous quitter ce Initiative?</value>
+  </data>
+  <data name="confirm_no" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="confirm_yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="edit_remove" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="edit_save" xml:space="preserve">
+    <value>sauvegarder</value>
+  </data>
+  <data name="timeline_project_follower" xml:space="preserve">
+    <value>Tous les partisans du initiative</value>
+  </data>
+  <data name="timeline_project_options" xml:space="preserve">
+    <value>(Vous pourrez choisir et ajouter des membres specifiques a partir de la page de l'initiative une fois crée)</value>
+  </data>
+  <data name="home_see_more" xml:space="preserve">
+    <value>Voir plus</value>
+  </data>
+  <data name="my_project" xml:space="preserve">
+    <value>Mes Initiatives</value>
+  </data>
+  <data name="other_project" xml:space="preserve">
+    <value>Autres initiatives communautaires</value>
+  </data>
+  <data name="popup_accept" xml:space="preserve">
+    <value>Acceptez</value>
+  </data>
+  <data name="popup_reject" xml:space="preserve">
+    <value>Rejeter</value>
+  </data>
+  <data name="timeline_add_event" xml:space="preserve">
+    <value>Ajouter un évènement</value>
+  </data>
+  <data name="timeline_end_date" xml:space="preserve">
+    <value>Date de fin (Cliquez pour définir la date)</value>
+  </data>
+  <data name="timeline_events" xml:space="preserve">
+    <value>Événements</value>
+  </data>
+  <data name="timeline_event_is_private" xml:space="preserve">
+    <value>L'événement est-il privé?</value>
+  </data>
+  <data name="timeline_event_options" xml:space="preserve">
+    <value>(Vous pourrez ajouter des membres spécifiques à partir de la page d'événement une fois créée)</value>
+  </data>
+  <data name="inbox_edit_title" xml:space="preserve">
+    <value>Modifier le titre</value>
+  </data>
+  <data name="inbox_input_title" xml:space="preserve">
+    <value>Veuillez saisir un titre valide</value>
+  </data>
+  <data name="inbox_title_updated" xml:space="preserve">
+    <value>Titre de la conversation mis à jour avec succès</value>
+  </data>
+  <data name="inbox_unmute_thread" xml:space="preserve">
+    <value>Ne pas mémoriser le fil</value>
+  </data>
+  <data name="newsfeed_upload_limit_message" xml:space="preserve">
+    <value>Désolé, vous ne pouvez pas télécharger plus de 10 articles dans un message</value>
+  </data>
+  <data name="jobs_myjob" xml:space="preserve">
+    <value>Mes emplois</value>
+  </data>
+  <data name="jobs_myjob_all" xml:space="preserve">
+    <value>Afficher tous mes emplois</value>
+  </data>
+  <data name="jobs_new_job" xml:space="preserve">
+    <value>Nouveau travail</value>
+  </data>
+  <data name="jobs_other_jobs" xml:space="preserve">
+    <value>Voir les emplois expirés</value>
+  </data>
+  <data name="job_beginner" xml:space="preserve">
+    <value>Débutant</value>
+  </data>
+  <data name="job_contract" xml:space="preserve">
+    <value>Contrat</value>
+  </data>
+  <data name="job_deadline" xml:space="preserve">
+    <value>Date limite. L'offre expire dans: (jours)</value>
+  </data>
+  <data name="job_expert" xml:space="preserve">
+    <value>Expert</value>
+  </data>
+  <data name="job_full_time" xml:space="preserve">
+    <value>À plein temps</value>
+  </data>
+  <data name="job_group" xml:space="preserve">
+    <value>Un groupe</value>
+  </data>
+  <data name="job_how_to_apply" xml:space="preserve">
+    <value>Comment postuler</value>
+  </data>
+  <data name="job_intermediate" xml:space="preserve">
+    <value>Intermédiaire</value>
+  </data>
+  <data name="job_internship" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="job_is_private" xml:space="preserve">
+    <value>Le poste est-il privé?</value>
+  </data>
+  <data name="job_level" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="job_myself" xml:space="preserve">
+    <value>Moi même</value>
+  </data>
+  <data name="job_negotiable" xml:space="preserve">
+    <value>Négociable</value>
+  </data>
+  <data name="job_other" xml:space="preserve">
+    <value>Je suis juste en train de relayer le message</value>
+  </data>
+  <data name="job_quick_job" xml:space="preserve">
+    <value>Job rapide</value>
+  </data>
+  <data name="job_remuneration_type" xml:space="preserve">
+    <value>Rémunération</value>
+  </data>
+  <data name="job_type" xml:space="preserve">
+    <value>Type d'emploi</value>
+  </data>
+  <data name="job_undisclosed" xml:space="preserve">
+    <value>non dévoilé</value>
+  </data>
+  <data name="job_who_is_hiring" xml:space="preserve">
+    <value>Qui embauche?</value>
+  </data>
+  <data name="job_add_member" xml:space="preserve">
+    <value>Qui devrait postuler?</value>
+  </data>
+  <data name="job_estimate_budget" xml:space="preserve">
+    <value>Estimation du budget d'emploi</value>
+  </data>
+  <data name="timeline_job_options" xml:space="preserve">
+    <value>(Vous pourrez également ajouter/supprimer des membres de la page Job une fois créés)</value>
+  </data>
+  <data name="job_add_applicant" xml:space="preserve">
+    <value>Inviter un member</value>
+  </data>
+  <data name="job_already_applied" xml:space="preserve">
+    <value>Déja postulé</value>
+  </data>
+  <data name="job_apply" xml:space="preserve">
+    <value>Postuler</value>
+  </data>
+  <data name="job_delete" xml:space="preserve">
+    <value>Supprimer l'offre d'emploi</value>
+  </data>
+  <data name="job_edit" xml:space="preserve">
+    <value>Modifier l'offre d'emploi</value>
+  </data>
+  <data name="job_posted_by" xml:space="preserve">
+    <value>Posté par</value>
+  </data>
+  <data name="confirm_apply" xml:space="preserve">
+    <value>Appliquer</value>
+  </data>
+  <data name="confirm_cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="job_cover_letter" xml:space="preserve">
+    <value>Entrez la lettre d'accompagnement</value>
+  </data>
+  <data name="job_cv" xml:space="preserve">
+    <value>Télécharger un CV (doc, docx, pdf)</value>
+  </data>
+  <data name="job_applicant" xml:space="preserve">
+    <value>Candidats</value>
+  </data>
+  <data name="job_extend" xml:space="preserve">
+    <value>Étendre la date du travail</value>
+  </data>
+  <data name="profile_email_subscribe" xml:space="preserve">
+    <value>Autoriser PiposX à envoyer une newsletter par e-mail</value>
+  </data>
+  <data name="contact_enter_captcha" xml:space="preserve">
+    <value>S'il vous plaît entrer le code captcha</value>
+  </data>
+  <data name="popup_advanced_search" xml:space="preserve">
+    <value>Recherche avancée:</value>
+  </data>
+  <data name="popup_search" xml:space="preserve">
+    <value>Chercher</value>
+  </data>
+  <data name="popup_any" xml:space="preserve">
+    <value>Tout</value>
+  </data>
+  <data name="popup_valid_values" xml:space="preserve">
+    <value>Veuillez sélectionner des options valides</value>
+  </data>
+  <data name="posting_case0" xml:space="preserve">
+    <value>Les collègues veulent t'écouter, partage ce sur quoi tu travailles; sinon des blagues, expériences, idées, news, projets, questions ?</value>
+  </data>
+  <data name="posting_case1" xml:space="preserve">
+    <value>Tu dois avoir une histoire intéressante, une question, projet ou une idée ? Sinon, comment tu vas ?</value>
+  </data>
+  <data name="posting_case2" xml:space="preserve">
+    <value>Partagez des projets, des projets et comment vous hébergez en dehors de {0} ou simplement blagues avec nous</value>
+  </data>
+  <data name="posting_case3" xml:space="preserve">
+    <value>D'ici peu tu auras 5 ans d'expérience; partage idées, blagues, travaux. ou alors, aurais-tu une question ?</value>
+  </data>
+  <data name="posting_case4" xml:space="preserve">
+    <value>D'ici peu tu auras 10 ans d'expérience; partage idées, blagues, travaux. ou alors, aurais-tu une question ?</value>
+  </data>
+  <data name="posting_case5" xml:space="preserve">
+    <value>Avec 10+ annees d'expérience; partage avec nous, idées, blagues, connaissances. aurais-tu une question</value>
+  </data>
+  <data name="posting_case6" xml:space="preserve">
+    <value>Avec 20+ annees d'expérience; tu es un des pilliers du groupe, partage idées, blagues, projets,  expérience avec nous</value>
+  </data>
+  <data name="posting_case7" xml:space="preserve">
+    <value>Avec 30+ annees d'expérience; tu as fait face aux premieres grandes difficultés, partage idées, blagues, connaissances avec nous</value>
+  </data>
+  <data name="profile_missing_profile" xml:space="preserve">
+    <value>Vous avez un profil incomplet (Expérience Manquante), vous êtes redirigé vers la page de profil</value>
+  </data>
+  <data name="job_create_job" xml:space="preserve">
+    <value>Creer une offre d'emploi</value>
+  </data>
+  <data name="job_email_directly" xml:space="preserve">
+    <value>Email moi directement</value>
+  </data>
+  <data name="job_upload_resume" xml:space="preserve">
+    <value>Télécharger le CV</value>
+  </data>
+  <data name="job_visit_webpage" xml:space="preserve">
+    <value>Visitez la page Web</value>
+  </data>
+  <data name="general_audience" xml:space="preserve">
+    <value>Audience</value>
+  </data>
+  <data name="job_amount" xml:space="preserve">
+    <value>Montant</value>
+  </data>
+  <data name="job_applied" xml:space="preserve">
+    <value>Vous avez réussi à postuler pour le poste</value>
+  </data>
+  <data name="job_created" xml:space="preserve">
+    <value>Un nouveau Job est créé avec succès</value>
+  </data>
+  <data name="job_job" xml:space="preserve">
+    <value>Emploi</value>
+  </data>
+  <data name="job_applicant_added" xml:space="preserve">
+    <value>Le demandeur a été ajouté avec succès</value>
+  </data>
+  <data name="job_deadline_limit" xml:space="preserve">
+    <value>La date limite d'emploi doit être supérieure à 0</value>
+  </data>
+  <data name="job_fill_fields" xml:space="preserve">
+    <value>Merci de compléter tous les champs</value>
+  </data>
+  <data name="job_follower_accepted" xml:space="preserve">
+    <value>Le suiveur a été accepté avec succès</value>
+  </data>
+  <data name="job_follower_removed" xml:space="preserve">
+    <value>Le suiveur a été supprimé avec succès</value>
+  </data>
+  <data name="job_member_added" xml:space="preserve">
+    <value>Le membre a été ajouté avec succès</value>
+  </data>
+  <data name="job_post_deleted" xml:space="preserve">
+    <value>Poste de travail supprimé avec succès</value>
+  </data>
+  <data name="job_post_updated" xml:space="preserve">
+    <value>Poste de travail mis à jour avec succès</value>
+  </data>
+  <data name="job_remuneration_amount" xml:space="preserve">
+    <value>Le montant de la rémunération doit être supérieur à 0</value>
+  </data>
+  <data name="job_select_job_type" xml:space="preserve">
+    <value>Veuillez sélectionner le type d'emploi</value>
+  </data>
+  <data name="job_select_level" xml:space="preserve">
+    <value>Veuillez sélectionner Niveau</value>
+  </data>
+  <data name="job_select_remuneration" xml:space="preserve">
+    <value>Veuillez sélectionner le type de rémunération</value>
+  </data>
+  <data name="job_select_who_hiring" xml:space="preserve">
+    <value>Veuillez sélectionner Qui embauche</value>
+  </data>
+  <data name="project_deleted" xml:space="preserve">
+    <value>Initiative supprimée avec succès</value>
+  </data>
+  <data name="job_description_file" xml:space="preserve">
+    <value>Fichier de description de travail</value>
+  </data>
+  <data name="job_fill_cover" xml:space="preserve">
+    <value>Merci de remplir la lettre de motivation</value>
+  </data>
+  <data name="job_upload_cv" xml:space="preserve">
+    <value>Veuillez télécharger un fichier CV</value>
+  </data>
+  <data name="cover_save_cover" xml:space="preserve">
+    <value>Enregistrer la photo de couverture</value>
+  </data>
+  <data name="cover_update_cover" xml:space="preserve">
+    <value>Mettre à jour la photo de couverture</value>
+  </data>
+  <data name="cover_changed" xml:space="preserve">
+    <value>La photo de couverture a bien été modifiée</value>
+  </data>
+  <data name="cover_invalid_image" xml:space="preserve">
+    <value>S'il vous plaît télécharger une image avec une taille de plus de 500px de large</value>
+  </data>
+  <data name="profile_update_image" xml:space="preserve">
+    <value>Mettre à jour l'image</value>
+  </data>
+  <data name="confirm_delete" xml:space="preserve">
+    <value>Confirmer la suppression ?</value>
+  </data>
+  <data name="deletion_message" xml:space="preserve">
+    <value>Voulez-vous supprimer cela ?</value>
+  </data>
+  <data name="popup_view_members" xml:space="preserve">
+    <value>Voir tous les membres</value>
+  </data>
+  <data name="general_no_results" xml:space="preserve">
+    <value>Aucun résultat trouvé.</value>
+  </data>
+  <data name="home_already_registered_other_pipo" xml:space="preserve">
+    <value>Votre compte est déjà associé à un autre compte {0} PiposX</value>
+  </data>
+  <data name="home_select_school" xml:space="preserve">
+    <value>Veuillez sélectionner {0} pour continuer</value>
+  </data>
+  <data name="general_companies" xml:space="preserve">
+    <value>Entreprises</value>
+  </data>
+  <data name="general_delete_company" xml:space="preserve">
+    <value>Supprimer l'entreprise</value>
+  </data>
+  <data name="general_edit_company" xml:space="preserve">
+    <value>Modifier l'entreprise</value>
+  </data>
+  <data name="timeline_company_add_user" xml:space="preserve">
+    <value>Ajouter un membre</value>
+  </data>
+  <data name="timeline_company_requests" xml:space="preserve">
+    <value>Requêtes</value>
+  </data>
+  <data name="timeline_company_follower" xml:space="preserve">
+    <value>Tous les abonnés de l'entreprise</value>
+  </data>
+  <data name="company_delete" xml:space="preserve">
+    <value>Supprimer l'entreprise</value>
+  </data>
+  <data name="company_add_class" xml:space="preserve">
+    <value>Ma classe</value>
+  </data>
+  <data name="Company_add_community" xml:space="preserve">
+    <value>Ma {0}</value>
+  </data>
+  <data name="company_add_company" xml:space="preserve">
+    <value>Ajouter une entreprise</value>
+  </data>
+  <data name="company_add_department" xml:space="preserve">
+    <value>Mon département</value>
+  </data>
+  <data name="my_company" xml:space="preserve">
+    <value>Mon entreprise</value>
+  </data>
+  <data name="other_company" xml:space="preserve">
+    <value>Autres sociétés communautaires</value>
+  </data>
+  <data name="timeline_other_companies" xml:space="preserve">
+    <value>Voir toutes les entreprises communautaires</value>
+  </data>
+  <data name="timeline_company_request" xml:space="preserve">
+    <value>Toute demande de Entreprises</value>
+  </data>
+  <data name="company_added" xml:space="preserve">
+    <value>Nouveau company ajouté avec succès</value>
+  </data>
+  <data name="company_deleted" xml:space="preserve">
+    <value>Company supprimée avec succès</value>
+  </data>
+  <data name="company_updated" xml:space="preserve">
+    <value>Entreprise mis à jour avec succès</value>
+  </data>
+  <data name="company_follower_removed" xml:space="preserve">
+    <value>Le company a été supprimé avec succès</value>
+  </data>
+  <data name="company_company" xml:space="preserve">
+    <value>Entreprise</value>
+  </data>
+  <data name="add_company_im" xml:space="preserve">
+    <value>JE SUIS</value>
+  </data>
+  <data name="add_company_industry" xml:space="preserve">
+    <value>Industrie de la société</value>
+  </data>
+  <data name="add_company_location" xml:space="preserve">
+    <value>Ajouter un emplacement</value>
+  </data>
+  <data name="add_company_size" xml:space="preserve">
+    <value>taille de l'entreprise</value>
+  </data>
+  <data name="add_company_specialties" xml:space="preserve">
+    <value>Spécialités d'annonces</value>
+  </data>
+  <data name="add_company_start" xml:space="preserve">
+    <value>Société fondée (année)</value>
+  </data>
+  <data name="add_company_type" xml:space="preserve">
+    <value>Type de compagnie</value>
+  </data>
+  <data name="add_company_url" xml:space="preserve">
+    <value>URL de site web</value>
+  </data>
+  <data name="location_address" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="location_apt" xml:space="preserve">
+    <value>Apte, suite, etc.</value>
+  </data>
+  <data name="location_building" xml:space="preserve">
+    <value>Nom du bâtiment</value>
+  </data>
+  <data name="location_city" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="location_country" xml:space="preserve">
+    <value>pays</value>
+  </data>
+  <data name="location_main_office" xml:space="preserve">
+    <value>Est-ce que ce lieu est le bureau principal</value>
+  </data>
+  <data name="location_state" xml:space="preserve">
+    <value>Etat / province</value>
+  </data>
+  <data name="location_yes_main" xml:space="preserve">
+    <value>Oui cet emplacement est le bureau principal</value>
+  </data>
+  <data name="location_zip" xml:space="preserve">
+    <value>Code postal</value>
+  </data>
+  <data name="location_add" xml:space="preserve">
+    <value>Ajouter un emplacement</value>
+  </data>
+  <data name="select_company_industry" xml:space="preserve">
+    <value>Sélectionnez l'industrie de la compagnie</value>
+  </data>
+  <data name="select_company_size" xml:space="preserve">
+    <value>Sélectionnez la taille de l'entreprise</value>
+  </data>
+  <data name="select_company_type" xml:space="preserve">
+    <value>Sélectionnez le type d'entreprise</value>
+  </data>
+  <data name="select_designation" xml:space="preserve">
+    <value>Sélectionnez votre désignation</value>
+  </data>
+  <data name="select_country" xml:space="preserve">
+    <value>Choisissez le pays</value>
+  </data>
+  <data name="location_update" xml:space="preserve">
+    <value>Mise à jour</value>
+  </data>
+  <data name="company_info" xml:space="preserve">
+    <value>Informations sur la société</value>
+  </data>
+  <data name="company_name" xml:space="preserve">
+    <value>Nom de la compagnie</value>
+  </data>
+  <data name="company_specialties" xml:space="preserve">
+    <value>Spécialités de l'entreprise</value>
+  </data>
+  <data name="company_is_private" xml:space="preserve">
+    <value>est la société privée</value>
+  </data>
+  <data name="general_jobs" xml:space="preserve">
+    <value>Emplois</value>
+  </data>
+  <data name="company_join" xml:space="preserve">
+    <value>Rejoignez l'entreprise</value>
+  </data>
+  <data name="company_leave" xml:space="preserve">
+    <value>Quitter l'entreprise</value>
+  </data>
+  <data name="confirm_company_leave" xml:space="preserve">
+    <value>Voulez-vous quitter cette entreprise?</value>
+  </data>
+</root>

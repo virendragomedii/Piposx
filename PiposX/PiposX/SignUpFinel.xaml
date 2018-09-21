@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PiposX.SignUpFinel"
-              BackgroundColor="#429de3">
+              BackgroundColor="#429de3"
+               xmlns:controls="clr-namespace:PiposX.Controls">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
             <On Platform="Android">0,0,0,0</On>
@@ -19,6 +20,7 @@
               <Entry AbsoluteLayout.LayoutBounds="0,180,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" Placeholder="Password"  HorizontalOptions="FillAndExpand"/>
 
               <Button  AbsoluteLayout.LayoutBounds="0,230,1,40" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"  HorizontalOptions="FillAndExpand" Text="Register" TextColor="White" BackgroundColor="Black"/>
-            </AbsoluteLayout>
+           
+        </AbsoluteLayout>
     </ScrollView>
 </ContentPage>

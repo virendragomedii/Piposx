@@ -10,7 +10,18 @@
             <On Platform="iOS">0,20,0,0</On>
         </OnPlatform>
     </ContentPage.Padding>
+    
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem x:Name="toolswitch"   Name="MenuItem1" Priority="1" Order="Primary" Text="Item 1"   Icon="switchImgE.png" Clicked="btnswitch_Click" >
+           
+            </ToolbarItem>
+       
+    </ContentPage.ToolbarItems>
+   
     <ScrollView>
+        
+
         <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
@@ -22,7 +33,8 @@
             <RowDefinition Height="40"/>
             </Grid.RowDefinitions>
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10,0,0">
-            <StackLayout Orientation="Vertical">
+               
+                <StackLayout Orientation="Vertical">
             <Label x:Name="lblconnect" Text="Connect to your community better" TextColor="White" Font="22"/>
             <Label x:Name="lbljoin" Text="Join your private community" TextColor="White" HorizontalOptions="Center" Opacity="0.6" Margin="10,10,10,10"/>
             </StackLayout>
@@ -39,7 +51,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
             </Grid>-->
-            <Button Text="Login with Facebook" Image="NewIcon.png" TextColor="White" BackgroundColor="#4180f4"  Grid.Row="1" />
+            <Button x:Name="btnfacebookLogin" Text="Login with Facebook" Image="NewIcon.png" TextColor="White" BackgroundColor="#4180f4"  Grid.Row="1" />
             <Entry x:Name="txtEmail" Placeholder="Enter email" PlaceholderColor="#cacbce" Grid.Row="2" TextColor="White" />
             <Entry x:Name="txtpassword" Placeholder="Enter Password" PlaceholderColor="#cacbce" Grid.Row="3"  IsPassword="True" TextColor="White">
                 <Entry.Effects>

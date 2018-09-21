@@ -10,6 +10,13 @@
             <On Platform="iOS">0,20,0,0</On>
         </OnPlatform>
     </ContentPage.Padding>
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem x:Name="toolswitch"   Name="MenuItem1" Priority="1" Order="Primary" Text="Item 1"   Icon="switchImgE.png" Clicked="btnswitch_Click" >
+
+        </ToolbarItem>
+
+    </ContentPage.ToolbarItems>
     <ScrollView>
         <Grid Margin="20,80,20,0">
             <Grid.RowDefinitions>
