@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Effects\ShowHidePassEffect.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -101,10 +102,17 @@
     <AndroidResource Include="Resources\drawable\show_pass.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\hide_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\show_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\drawable\switchImgF.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\switchImgE.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
